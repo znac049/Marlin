@@ -35,20 +35,20 @@
   /**
    * Marlin release version identifier
    */
-  #define SHORT_BUILD_VERSION "1.1.8"
+  #define SHORT_BUILD_VERSION "1.1.8-1"
 
   /**
    * Verbose version identifier which should contain a reference to the location
    * from where the binary was downloaded or the source code was compiled.
    */
-  #define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " (Github)"
+  #define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " (github)"
 
   /**
    * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
    * here we define this default string as the date where the latest release
    * version was tagged.
    */
-  #define STRING_DISTRIBUTION_DATE "2017-12-25 12:00"
+  #define STRING_DISTRIBUTION_DATE "2018-03-11 11:00"
 
   /**
    * Required minimum Configuration.h and Configuration_adv.h file versions.
@@ -70,7 +70,7 @@
   /**
    * Defines a generic printer name to be output to the LCD after booting Marlin.
    */
-  #define MACHINE_NAME "3D Printer"
+  #define MACHINE_NAME "Bob's i3 Pro B"
 
   /**
    * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -78,7 +78,7 @@
    * has a distinct Github fork— the Source Code URL should just be the main
    * Marlin repository.
    */
-  #define SOURCE_CODE_URL "https://github.com/MarlinFirmware/Marlin"
+  #define SOURCE_CODE_URL "https://github.com/znac049/Marlin"
 
   /**
    * Default generic printer UUID.
